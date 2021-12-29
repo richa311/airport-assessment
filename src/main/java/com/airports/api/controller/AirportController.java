@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/airport")
+@RequestMapping("/airports")
 public class AirportController {
 
     private final CountryService countryService;
